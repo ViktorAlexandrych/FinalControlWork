@@ -5,7 +5,7 @@ void array(string[] stringArray)
 {
 	for (int i = 0; i < stringArray.Length; i++)
 	{
-		Console.WriteLine($"Введите {i} элемент массива");
+		Console.WriteLine($"Введите {i} элемент массива:");
 		stringArray[i] = Console.ReadLine()!;
 	}
 }
